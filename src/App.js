@@ -2,7 +2,11 @@ import React from 'react'
 import Welcome from './Welcome'
 import {auth,createUserDocumentProfile} from './Firebase'
 import Homepage from './Homepage/Homepage.js'
+import VintageShirt from './Pages/Vintage Shirt/VintageShirt'
+import Tops from './Pages/Tops/Tops'
+import Watches from './Pages/Watches/Watches'
 import {Switch, Route} from 'react-router-dom'
+import {BrowserRouter, BrowserRouter as Router} from 'react-router-dom'
 
 class App extends React.Component {
 
@@ -45,9 +49,22 @@ class App extends React.Component {
     
      return (
     <div className="app">
+       <Router>
       {
-        this.state.currentUser?<Homepage/>:<Welcome/>
+        this.state.currentUser?
+        <Switch>
+            <Route exact path="/Western-Desire/" render={(props)=><Homepage {...props}/>}></Route>
+             <Route exact path="/Western-Desire/Shirt" ><VintageShirt/></Route>
+              <Route exact path="/Western-Desire/Tops" ><Tops/></Route>
+               <Route exact path="/Western-Desire/Watches" ><Watches/></Route>
+        </Switch>
+        :
+          
+          <Route exact path="/Western-Desire"><Welcome/></Route>
+        
+       
       }
+       </Router>
     </div>
   );
   }

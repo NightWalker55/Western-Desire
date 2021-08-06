@@ -3,18 +3,11 @@ import { auth } from '../Firebase'
 import Collection from '../Collection/Collection';
 import './Homepage.css'
 
-export default class Homepage extends Component {
-
-constructor(){
-    super();
-
-}
-
-handleSubmit=()=>{
+export default function Homepage({history}) {
+const handleSubmit=()=>{
     auth.signOut()
 }
 
-    render() {
         return (
             <div className="homepage">
                 <div className="main-section">
@@ -24,7 +17,7 @@ handleSubmit=()=>{
                       </div>   
                       <div className="nav-footer">
                           <h3>Contact Us</h3>
-                <h3 onClick={this.handleSubmit}>Sign Out</h3>   
+                <h3 onClick={handleSubmit}>Sign Out</h3>   
                       </div>
                 </nav>  
                   <div className="body-section">
@@ -37,5 +30,5 @@ handleSubmit=()=>{
                 </div>
             </div>
         )
-    }
+    
 }

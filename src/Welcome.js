@@ -3,8 +3,9 @@ import './Welcome.css'
 import LogIn from './LogIn'
 import SignIn from './SignIn'
 
-export default function Welcome() {
 
+ function Welcome() {
+     
     const [signIn,setSignIn] = useState(false);
      const [logIn,setlogIn] = useState(false)
     
@@ -43,3 +44,5 @@ export default function Welcome() {
          </div>   
     )
 }
+
+export default Welcome

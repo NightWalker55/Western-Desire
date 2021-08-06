@@ -67,3 +67,21 @@
   transform: scale(0.95);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .welcome-part {
+    width: 350px;
+  }
+
+  .welcome-page {
+    width: 350px;
+  }
+
+  .logIn-part {
+    width: 350px;
+  }
+
+  .signIn-part {
+    width: 350px;
+  }
+}
