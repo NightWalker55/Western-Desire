@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Western-Desire/static/css/main.2aac5a93.chunk.css",
+    "main.js": "/Western-Desire/static/js/main.cb51c0a0.chunk.js",
+    "main.js.map": "/Western-Desire/static/js/main.cb51c0a0.chunk.js.map",
+    "runtime-main.js": "/Western-Desire/static/js/runtime-main.c2ed4567.js",
+    "runtime-main.js.map": "/Western-Desire/static/js/runtime-main.c2ed4567.js.map",
+    "static/js/2.902688e5.chunk.js": "/Western-Desire/static/js/2.902688e5.chunk.js",
+    "static/js/2.902688e5.chunk.js.map": "/Western-Desire/static/js/2.902688e5.chunk.js.map",
+    "index.html": "/Western-Desire/index.html",
+    "static/css/main.2aac5a93.chunk.css.map": "/Western-Desire/static/css/main.2aac5a93.chunk.css.map",
+    "static/js/2.902688e5.chunk.js.LICENSE.txt": "/Western-Desire/static/js/2.902688e5.chunk.js.LICENSE.txt",
+    "static/media/1.6080c0b2.jpg": "/Western-Desire/static/media/1.6080c0b2.jpg",
+    "static/media/2.adf4ebaf.jpg": "/Western-Desire/static/media/2.adf4ebaf.jpg",
+    "static/media/3.20f84e1a.jpg": "/Western-Desire/static/media/3.20f84e1a.jpg",
+    "static/media/4.e1f46a2c.jpg": "/Western-Desire/static/media/4.e1f46a2c.jpg",
+    "static/media/5.3a4ad502.jpg": "/Western-Desire/static/media/5.3a4ad502.jpg",
+    "static/media/6.5c461c9b.jpg": "/Western-Desire/static/media/6.5c461c9b.jpg",
+    "static/media/7.3fc19598.jpg": "/Western-Desire/static/media/7.3fc19598.jpg",
+    "static/media/8.dff75b0a.jpg": "/Western-Desire/static/media/8.dff75b0a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2ed4567.js",
+    "static/js/2.902688e5.chunk.js",
+    "static/css/main.2aac5a93.chunk.css",
+    "static/js/main.cb51c0a0.chunk.js"
+  ]
+}
