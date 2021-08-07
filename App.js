@@ -49,7 +49,7 @@ class App extends React.Component {
     
      return (
     <div className="app">
-       <Router basename={process.env.PUBLIC_URL}>
+       <Router basename="/Western-Desire">
       {
         this.state.currentUser?
         <Switch>
